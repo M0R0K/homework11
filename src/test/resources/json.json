@@ -1,0 +1,9 @@
+{
+  "name": "Kostya",
+  "age": "28",
+  "profession": "QA",
+  "skills": [
+    "Manual",
+    "Automation"
+  ]
+}
