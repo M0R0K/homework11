@@ -28,7 +28,6 @@ public class FilesTests {
                 if (entry.getName().contains(".csv")) {
                     CSVReader csvReader = new CSVReader(new InputStreamReader(zis));
                     List<String[]> csvContent = csvReader.readAll();
-                    System.out.println(csvContent);
                     Assertions.assertArrayEquals(new String[]{"CSV;File"}, csvContent.get(1));
                     break;
 
